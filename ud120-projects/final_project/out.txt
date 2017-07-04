@@ -1,0 +1,2729 @@
+#GaussianNB()
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8000
+
+GaussianNB()
+	Accuracy: 0.82879	Precision: 0.36915	Recall: 0.28000	F1: 0.31845	F2: 0.29421
+	Total predictions: 14000	True positives:  560	False positives:  957	False negatives: 1440	True negatives: 11043
+
+executing tester.py time: 1.232 s
+
+###########################################################################################################################
+
+#RandomForestClassifier(criterion='gini', min_samples_split=2)
+training time: 0.018 s
+predicting time: 0.001 s
+accuracy: 0.8000
+
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+	Accuracy: 0.84321	Precision: 0.38933	Recall: 0.17150	F1: 0.23811	F2: 0.19311
+	Total predictions: 14000	True positives:  343	False positives:  538	False negatives: 1657	True negatives: 11462
+
+executing tester.py time: 23.032 s
+
+###########################################################################################################################
+
+#RandomForestClassifier(criterion='gini', min_samples_split=10)
+training time: 0.022 s
+predicting time: 0.002 s
+accuracy: 0.8750
+
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=10,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+	Accuracy: 0.84279	Precision: 0.39343	Recall: 0.18550	F1: 0.25212	F2: 0.20742
+	Total predictions: 14000	True positives:  371	False positives:  572	False negatives: 1629	True negatives: 11428
+
+executing tester.py time: 21.756 s
+
+###########################################################################################################################
+
+#RandomForestClassifier(criterion='gini', min_samples_split=20)
+training time: 0.018 s
+predicting time: 0.001 s
+accuracy: 0.8500
+
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=20,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+	Accuracy: 0.85036	Precision: 0.42520	Recall: 0.13500	F1: 0.20493	F2: 0.15634
+	Total predictions: 14000	True positives:  270	False positives:  365	False negatives: 1730	True negatives: 11635
+
+executing tester.py time: 19.876 s
+
+###########################################################################################################################
+
+#RandomForestClassifier(criterion='gini', min_samples_split=25)
+training time: 0.028 s
+predicting time: 0.002 s
+accuracy: 0.8750
+
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=25,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+	Accuracy: 0.85243	Precision: 0.43373	Recall: 0.10800	F1: 0.17294	F2: 0.12709
+	Total predictions: 14000	True positives:  216	False positives:  282	False negatives: 1784	True negatives: 11718
+
+executing tester.py time: 23.226 s
+
+###########################################################################################################################
+
+#RandomForestClassifier(criterion='gini', min_samples_split=30)
+training time: 0.018 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=30,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+	Accuracy: 0.85350	Precision: 0.44084	Recall: 0.09500	F1: 0.15631	F2: 0.11268
+	Total predictions: 14000	True positives:  190	False positives:  241	False negatives: 1810	True negatives: 11759
+
+executing tester.py time: 20.223 s
+
+###########################################################################################################################
+
+#RandomForestClassifier(criterion='gini', min_samples_split=40)
+training time: 0.017 s
+predicting time: 0.001 s
+accuracy: 0.8250
+
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=40,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+	Accuracy: 0.85650	Precision: 0.48825	Recall: 0.09350	F1: 0.15695	F2: 0.11154
+	Total predictions: 14000	True positives:  187	False positives:  196	False negatives: 1813	True negatives: 11804
+
+executing tester.py time: 18.4 s
+
+###########################################################################################################################
+
+#RandomForestClassifier(criterion='gini', min_samples_split=50)
+training time: 0.017 s
+predicting time: 0.001 s
+accuracy: 0.8500
+
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=50,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+	Accuracy: 0.85650	Precision: 0.48534	Recall: 0.07450	F1: 0.12917	F2: 0.08968
+	Total predictions: 14000	True positives:  149	False positives:  158	False negatives: 1851	True negatives: 11842
+
+executing tester.py time: 18.041 s
+
+###########################################################################################################################
+
+#RandomForestClassifier(criterion='entropy', min_samples_split=2)
+training time: 0.019 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+	Accuracy: 0.84250	Precision: 0.38573	Recall: 0.17300	F1: 0.23887	F2: 0.19445
+	Total predictions: 14000	True positives:  346	False positives:  551	False negatives: 1654	True negatives: 11449
+
+executing tester.py time: 20.088 s
+
+###########################################################################################################################
+
+#RandomForestClassifier(criterion='entropy', min_samples_split=10)
+training time: 0.019 s
+predicting time: 0.001 s
+accuracy: 0.7750
+
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=10,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+	Accuracy: 0.84557	Precision: 0.41118	Recall: 0.18750	F1: 0.25755	F2: 0.21039
+	Total predictions: 14000	True positives:  375	False positives:  537	False negatives: 1625	True negatives: 11463
+
+executing tester.py time: 19.539 s
+
+###########################################################################################################################
+
+#RandomForestClassifier(criterion='entropy', min_samples_split=20)
+training time: 0.019 s
+predicting time: 0.001 s
+accuracy: 0.8250
+
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=20,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+	Accuracy: 0.85200	Precision: 0.43284	Recall: 0.11600	F1: 0.18297	F2: 0.13590
+	Total predictions: 14000	True positives:  232	False positives:  304	False negatives: 1768	True negatives: 11696
+
+executing tester.py time: 19.131 s
+
+###########################################################################################################################
+
+#RandomForestClassifier(criterion='entropy', min_samples_split=25)
+training time: 0.019 s
+predicting time: 0.001 s
+accuracy: 0.8250
+
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=25,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+	Accuracy: 0.85407	Precision: 0.43978	Recall: 0.07850	F1: 0.13322	F2: 0.09393
+	Total predictions: 14000	True positives:  157	False positives:  200	False negatives: 1843	True negatives: 11800
+
+executing tester.py time: 19.621 s
+
+###########################################################################################################################
+
+#RandomForestClassifier(criterion='entropy', min_samples_split=30)
+training time: 0.017 s
+predicting time: 0.001 s
+accuracy: 0.8500
+
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=30,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+	Accuracy: 0.85436	Precision: 0.42471	Recall: 0.05500	F1: 0.09739	F2: 0.06659
+	Total predictions: 14000	True positives:  110	False positives:  149	False negatives: 1890	True negatives: 11851
+
+executing tester.py time: 18.992 s
+
+###########################################################################################################################
+
+#RandomForestClassifier(criterion='entropy', min_samples_split=40)
+training time: 0.017 s
+predicting time: 0.001 s
+accuracy: 0.8500
+
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=40,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+	Accuracy: 0.85643	Precision: 0.46622	Recall: 0.03450	F1: 0.06425	F2: 0.04234
+	Total predictions: 14000	True positives:   69	False positives:   79	False negatives: 1931	True negatives: 11921
+
+executing tester.py time: 20.007 s
+
+###########################################################################################################################
+
+#RandomForestClassifier(criterion='entropy', min_samples_split=50)
+training time: 0.017 s
+predicting time: 0.001 s
+accuracy: 0.9000
+
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=50,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+	Accuracy: 0.85636	Precision: 0.45217	Recall: 0.02600	F1: 0.04917	F2: 0.03204
+	Total predictions: 14000	True positives:   52	False positives:   63	False negatives: 1948	True negatives: 11937
+
+executing tester.py time: 18.943 s
+
+###########################################################################################################################
+
+#DecisionTreeClassifier(criterion='gini', min_samples_split=2)
+training time: 0.0 s
+predicting time: 0.0 s
+accuracy: 0.8000
+
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')
+	Accuracy: 0.79057	Precision: 0.29453	Recall: 0.33400	F1: 0.31303	F2: 0.32528
+	Total predictions: 14000	True positives:  668	False positives: 1600	False negatives: 1332	True negatives: 10400
+
+executing tester.py time: 0.809 s
+
+###########################################################################################################################
+
+#DecisionTreeClassifier(criterion='gini', min_samples_split=10)
+training time: 0.0 s
+predicting time: 0.0 s
+accuracy: 0.7500
+
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')
+	Accuracy: 0.80729	Precision: 0.27855	Recall: 0.21950	F1: 0.24553	F2: 0.22922
+	Total predictions: 14000	True positives:  439	False positives: 1137	False negatives: 1561	True negatives: 10863
+
+executing tester.py time: 0.827 s
+
+###########################################################################################################################
+
+#DecisionTreeClassifier(criterion='gini', min_samples_split=20)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.7500
+
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=20, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')
+	Accuracy: 0.81229	Precision: 0.28225	Recall: 0.20350	F1: 0.23649	F2: 0.21553
+	Total predictions: 14000	True positives:  407	False positives: 1035	False negatives: 1593	True negatives: 10965
+
+executing tester.py time: 0.825 s
+
+###########################################################################################################################
+
+#DecisionTreeClassifier(criterion='gini', min_samples_split=25)
+training time: 0.0 s
+predicting time: 0.0 s
+accuracy: 0.8250
+
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=25, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')
+	Accuracy: 0.81493	Precision: 0.25759	Recall: 0.15700	F1: 0.19509	F2: 0.17030
+	Total predictions: 14000	True positives:  314	False positives:  905	False negatives: 1686	True negatives: 11095
+
+executing tester.py time: 0.936 s
+
+###########################################################################################################################
+
+#DecisionTreeClassifier(criterion='gini', min_samples_split=30)
+training time: 0.0 s
+predicting time: 0.0 s
+accuracy: 0.8250
+
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=30, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')
+	Accuracy: 0.81986	Precision: 0.26738	Recall: 0.15000	F1: 0.19218	F2: 0.16444
+	Total predictions: 14000	True positives:  300	False positives:  822	False negatives: 1700	True negatives: 11178
+
+executing tester.py time: 0.811 s
+
+###########################################################################################################################
+
+#DecisionTreeClassifier(criterion='gini', min_samples_split=40)
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8250
+
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=40, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')
+	Accuracy: 0.82650	Precision: 0.10786	Recall: 0.02950	F1: 0.04633	F2: 0.03452
+	Total predictions: 14000	True positives:   59	False positives:  488	False negatives: 1941	True negatives: 11512
+
+executing tester.py time: 0.765 s
+
+###########################################################################################################################
+
+#DecisionTreeClassifier(criterion='gini', min_samples_split=50)
+training time: 0.0 s
+predicting time: 0.0 s
+accuracy: 0.8250
+
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=50, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')
+	Accuracy: 0.82664	Precision: 0.10826	Recall: 0.02950	F1: 0.04637	F2: 0.03452
+	Total predictions: 14000	True positives:   59	False positives:  486	False negatives: 1941	True negatives: 11514
+
+executing tester.py time: 0.763 s
+
+###########################################################################################################################
+
+#DecisionTreeClassifier(criterion='entropy', min_samples_split=2)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.7500
+
+DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')
+	Accuracy: 0.80814	Precision: 0.33268	Recall: 0.34100	F1: 0.33679	F2: 0.33930
+	Total predictions: 14000	True positives:  682	False positives: 1368	False negatives: 1318	True negatives: 10632
+
+executing tester.py time: 1.365 s
+
+###########################################################################################################################
+
+#DecisionTreeClassifier(criterion='entropy', min_samples_split=10)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.7500
+
+DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')
+	Accuracy: 0.80664	Precision: 0.29388	Recall: 0.25200	F1: 0.27133	F2: 0.25939
+	Total predictions: 14000	True positives:  504	False positives: 1211	False negatives: 1496	True negatives: 10789
+
+executing tester.py time: 1.301 s
+
+###########################################################################################################################
+
+#DecisionTreeClassifier(criterion='entropy', min_samples_split=20)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8250
+
+DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=20, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')
+	Accuracy: 0.80707	Precision: 0.28324	Recall: 0.22900	F1: 0.25325	F2: 0.23812
+	Total predictions: 14000	True positives:  458	False positives: 1159	False negatives: 1542	True negatives: 10841
+
+executing tester.py time: 1.172 s
+
+###########################################################################################################################
+
+#DecisionTreeClassifier(criterion='entropy', min_samples_split=25)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8250
+
+DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=25, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')
+	Accuracy: 0.80621	Precision: 0.27250	Recall: 0.21350	F1: 0.23942	F2: 0.22316
+	Total predictions: 14000	True positives:  427	False positives: 1140	False negatives: 1573	True negatives: 10860
+
+executing tester.py time: 1.153 s
+
+###########################################################################################################################
+
+#DecisionTreeClassifier(criterion='entropy', min_samples_split=30)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8250
+
+DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=30, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')
+	Accuracy: 0.80864	Precision: 0.23539	Recall: 0.15100	F1: 0.18398	F2: 0.16266
+	Total predictions: 14000	True positives:  302	False positives:  981	False negatives: 1698	True negatives: 11019
+
+executing tester.py time: 1.087 s
+
+###########################################################################################################################
+
+#DecisionTreeClassifier(criterion='entropy', min_samples_split=40)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8250
+
+DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=40, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')
+	Accuracy: 0.83136	Precision: 0.05868	Recall: 0.01200	F1: 0.01993	F2: 0.01427
+	Total predictions: 14000	True positives:   24	False positives:  385	False negatives: 1976	True negatives: 11615
+
+executing tester.py time: 1.204 s
+
+###########################################################################################################################
+
+#DecisionTreeClassifier(criterion='entropy', min_samples_split=50)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8250
+
+DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=50, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')
+	Accuracy: 0.83229	Precision: 0.06061	Recall: 0.01200	F1: 0.02003	F2: 0.01429
+	Total predictions: 14000	True positives:   24	False positives:  372	False negatives: 1976	True negatives: 11628
+
+executing tester.py time: 1.126 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=2, algorithm='auto', weights ='uniform')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=2,
+           weights='uniform')
+	Accuracy: 0.84707	Precision: 0.10615	Recall: 0.00950	F1: 0.01744	F2: 0.01162
+	Total predictions: 14000	True positives:   19	False positives:  160	False negatives: 1981	True negatives: 11840
+
+executing tester.py time: 1.048 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=3, algorithm='auto', weights ='uniform')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8250
+
+KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
+           weights='uniform')
+	Accuracy: 0.81421	Precision: 0.16869	Recall: 0.07650	F1: 0.10526	F2: 0.08589
+	Total predictions: 14000	True positives:  153	False positives:  754	False negatives: 1847	True negatives: 11246
+
+executing tester.py time: 1.124 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=4, algorithm='auto', weights ='uniform')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.9000
+
+KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=4, p=2,
+           weights='uniform')
+	Accuracy: 0.84586	Precision: 0.22183	Recall: 0.03150	F1: 0.05517	F2: 0.03803
+	Total predictions: 14000	True positives:   63	False positives:  221	False negatives: 1937	True negatives: 11779
+
+executing tester.py time: 1.078 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=5, algorithm='auto', weights ='uniform')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='uniform')
+	Accuracy: 0.83379	Precision: 0.30277	Recall: 0.12550	F1: 0.17745	F2: 0.14215
+	Total predictions: 14000	True positives:  251	False positives:  578	False negatives: 1749	True negatives: 11422
+
+executing tester.py time: 1.079 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=6, algorithm='auto', weights ='uniform')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=6, p=2,
+           weights='uniform')
+	Accuracy: 0.85250	Precision: 0.37548	Recall: 0.04900	F1: 0.08669	F2: 0.05931
+	Total predictions: 14000	True positives:   98	False positives:  163	False negatives: 1902	True negatives: 11837
+
+executing tester.py time: 1.096 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=7, algorithm='auto', weights ='uniform')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
+           weights='uniform')
+	Accuracy: 0.84093	Precision: 0.24609	Recall: 0.05500	F1: 0.08991	F2: 0.06511
+	Total predictions: 14000	True positives:  110	False positives:  337	False negatives: 1890	True negatives: 11663
+
+executing tester.py time: 1.081 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=8, algorithm='auto', weights ='uniform')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+Got a divide by zero when trying out: KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=8, p=2,
+           weights='uniform')
+Precision or recall may be undefined due to a lack of true positive predicitons.
+executing tester.py time: 1.061 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=2, algorithm='brute', weights ='uniform')
+training time: 0.0 s
+predicting time: 0.004 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=2,
+           weights='uniform')
+	Accuracy: 0.84707	Precision: 0.10615	Recall: 0.00950	F1: 0.01744	F2: 0.01162
+	Total predictions: 14000	True positives:   19	False positives:  160	False negatives: 1981	True negatives: 11840
+
+executing tester.py time: 0.889 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=3, algorithm='brute', weights ='uniform')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8250
+
+KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
+           weights='uniform')
+	Accuracy: 0.81421	Precision: 0.16869	Recall: 0.07650	F1: 0.10526	F2: 0.08589
+	Total predictions: 14000	True positives:  153	False positives:  754	False negatives: 1847	True negatives: 11246
+
+executing tester.py time: 0.921 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=4, algorithm='brute', weights ='uniform')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.9000
+
+KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=4, p=2,
+           weights='uniform')
+	Accuracy: 0.84586	Precision: 0.22183	Recall: 0.03150	F1: 0.05517	F2: 0.03803
+	Total predictions: 14000	True positives:   63	False positives:  221	False negatives: 1937	True negatives: 11779
+
+executing tester.py time: 0.939 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=5, algorithm='brute', weights ='uniform')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='uniform')
+	Accuracy: 0.83379	Precision: 0.30277	Recall: 0.12550	F1: 0.17745	F2: 0.14215
+	Total predictions: 14000	True positives:  251	False positives:  578	False negatives: 1749	True negatives: 11422
+
+executing tester.py time: 0.959 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=6, algorithm='brute', weights ='uniform')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=6, p=2,
+           weights='uniform')
+	Accuracy: 0.85250	Precision: 0.37548	Recall: 0.04900	F1: 0.08669	F2: 0.05931
+	Total predictions: 14000	True positives:   98	False positives:  163	False negatives: 1902	True negatives: 11837
+
+executing tester.py time: 0.95 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=7, algorithm='brute', weights ='uniform')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
+           weights='uniform')
+	Accuracy: 0.84093	Precision: 0.24609	Recall: 0.05500	F1: 0.08991	F2: 0.06511
+	Total predictions: 14000	True positives:  110	False positives:  337	False negatives: 1890	True negatives: 11663
+
+executing tester.py time: 0.929 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=8, algorithm='brute', weights ='uniform')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+Got a divide by zero when trying out: KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=8, p=2,
+           weights='uniform')
+Precision or recall may be undefined due to a lack of true positive predicitons.
+executing tester.py time: 0.96 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=2, algorithm='ball_tree', weights ='uniform')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=2,
+           weights='uniform')
+	Accuracy: 0.84707	Precision: 0.10615	Recall: 0.00950	F1: 0.01744	F2: 0.01162
+	Total predictions: 14000	True positives:   19	False positives:  160	False negatives: 1981	True negatives: 11840
+
+executing tester.py time: 1.094 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=3, algorithm='ball_tree', weights ='uniform')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8250
+
+KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
+           weights='uniform')
+	Accuracy: 0.81421	Precision: 0.16869	Recall: 0.07650	F1: 0.10526	F2: 0.08589
+	Total predictions: 14000	True positives:  153	False positives:  754	False negatives: 1847	True negatives: 11246
+
+executing tester.py time: 1.105 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=4, algorithm='ball_tree', weights ='uniform')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.9000
+
+KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=4, p=2,
+           weights='uniform')
+	Accuracy: 0.84586	Precision: 0.22183	Recall: 0.03150	F1: 0.05517	F2: 0.03803
+	Total predictions: 14000	True positives:   63	False positives:  221	False negatives: 1937	True negatives: 11779
+
+executing tester.py time: 1.558 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=5, algorithm='ball_tree', weights ='uniform')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='uniform')
+	Accuracy: 0.83379	Precision: 0.30277	Recall: 0.12550	F1: 0.17745	F2: 0.14215
+	Total predictions: 14000	True positives:  251	False positives:  578	False negatives: 1749	True negatives: 11422
+
+executing tester.py time: 1.261 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=6, algorithm='ball_tree', weights ='uniform')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=6, p=2,
+           weights='uniform')
+	Accuracy: 0.85250	Precision: 0.37548	Recall: 0.04900	F1: 0.08669	F2: 0.05931
+	Total predictions: 14000	True positives:   98	False positives:  163	False negatives: 1902	True negatives: 11837
+
+executing tester.py time: 1.368 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=7, algorithm='ball_tree', weights ='uniform')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
+           weights='uniform')
+	Accuracy: 0.84093	Precision: 0.24609	Recall: 0.05500	F1: 0.08991	F2: 0.06511
+	Total predictions: 14000	True positives:  110	False positives:  337	False negatives: 1890	True negatives: 11663
+
+executing tester.py time: 1.359 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=8, algorithm='ball_tree', weights ='uniform')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+Got a divide by zero when trying out: KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=8, p=2,
+           weights='uniform')
+Precision or recall may be undefined due to a lack of true positive predicitons.
+executing tester.py time: 1.178 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=2, algorithm='kd_tree', weights ='uniform')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=2,
+           weights='uniform')
+	Accuracy: 0.84707	Precision: 0.10615	Recall: 0.00950	F1: 0.01744	F2: 0.01162
+	Total predictions: 14000	True positives:   19	False positives:  160	False negatives: 1981	True negatives: 11840
+
+executing tester.py time: 1.207 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=3, algorithm='kd_tree', weights ='uniform')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8250
+
+KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
+           weights='uniform')
+	Accuracy: 0.81421	Precision: 0.16869	Recall: 0.07650	F1: 0.10526	F2: 0.08589
+	Total predictions: 14000	True positives:  153	False positives:  754	False negatives: 1847	True negatives: 11246
+
+executing tester.py time: 1.299 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=4, algorithm='kd_tree', weights ='uniform')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.9000
+
+KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=4, p=2,
+           weights='uniform')
+	Accuracy: 0.84586	Precision: 0.22183	Recall: 0.03150	F1: 0.05517	F2: 0.03803
+	Total predictions: 14000	True positives:   63	False positives:  221	False negatives: 1937	True negatives: 11779
+
+executing tester.py time: 1.125 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=5, algorithm='kd_tree', weights ='uniform')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='uniform')
+	Accuracy: 0.83379	Precision: 0.30277	Recall: 0.12550	F1: 0.17745	F2: 0.14215
+	Total predictions: 14000	True positives:  251	False positives:  578	False negatives: 1749	True negatives: 11422
+
+executing tester.py time: 1.185 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=6, algorithm='kd_tree', weights ='uniform')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=6, p=2,
+           weights='uniform')
+	Accuracy: 0.85250	Precision: 0.37548	Recall: 0.04900	F1: 0.08669	F2: 0.05931
+	Total predictions: 14000	True positives:   98	False positives:  163	False negatives: 1902	True negatives: 11837
+
+executing tester.py time: 1.08 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=7, algorithm='kd_tree', weights ='uniform')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
+           weights='uniform')
+	Accuracy: 0.84093	Precision: 0.24609	Recall: 0.05500	F1: 0.08991	F2: 0.06511
+	Total predictions: 14000	True positives:  110	False positives:  337	False negatives: 1890	True negatives: 11663
+
+executing tester.py time: 1.366 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=8, algorithm='kd_tree', weights ='uniform')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+Got a divide by zero when trying out: KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=8, p=2,
+           weights='uniform')
+Precision or recall may be undefined due to a lack of true positive predicitons.
+executing tester.py time: 1.33 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=2, algorithm='auto', weights ='distance')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8250
+
+KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=2,
+           weights='distance')
+	Accuracy: 0.81800	Precision: 0.35173	Recall: 0.32500	F1: 0.33784	F2: 0.33002
+	Total predictions: 14000	True positives:  650	False positives: 1198	False negatives: 1350	True negatives: 10802
+
+executing tester.py time: 1.113 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=3, algorithm='auto', weights ='distance')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8250
+
+KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
+           weights='distance')
+	Accuracy: 0.82100	Precision: 0.20650	Recall: 0.08900	F1: 0.12439	F2: 0.10043
+	Total predictions: 14000	True positives:  178	False positives:  684	False negatives: 1822	True negatives: 11316
+
+executing tester.py time: 1.299 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=4, algorithm='auto', weights ='distance')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8500
+
+KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=4, p=2,
+           weights='distance')
+	Accuracy: 0.82193	Precision: 0.24509	Recall: 0.11850	F1: 0.15976	F2: 0.13215
+	Total predictions: 14000	True positives:  237	False positives:  730	False negatives: 1763	True negatives: 11270
+
+executing tester.py time: 1.181 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=5, algorithm='auto', weights ='distance')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8500
+
+KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')
+	Accuracy: 0.84493	Precision: 0.39080	Recall: 0.15300	F1: 0.21991	F2: 0.17420
+	Total predictions: 14000	True positives:  306	False positives:  477	False negatives: 1694	True negatives: 11523
+
+executing tester.py time: 1.081 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=6, algorithm='auto', weights ='distance')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=6, p=2,
+           weights='distance')
+	Accuracy: 0.84279	Precision: 0.36931	Recall: 0.14200	F1: 0.20513	F2: 0.16193
+	Total predictions: 14000	True positives:  284	False positives:  485	False negatives: 1716	True negatives: 11515
+
+executing tester.py time: 1.42 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=7, algorithm='auto', weights ='distance')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
+           weights='distance')
+	Accuracy: 0.85071	Precision: 0.40426	Recall: 0.09500	F1: 0.15385	F2: 0.11216
+	Total predictions: 14000	True positives:  190	False positives:  280	False negatives: 1810	True negatives: 11720
+
+executing tester.py time: 1.126 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=8, algorithm='auto', weights ='distance')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=8, p=2,
+           weights='distance')
+	Accuracy: 0.83943	Precision: 0.15169	Recall: 0.02700	F1: 0.04584	F2: 0.03231
+	Total predictions: 14000	True positives:   54	False positives:  302	False negatives: 1946	True negatives: 11698
+
+executing tester.py time: 1.498 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=2, algorithm='brute', weights ='distance')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8250
+
+KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=2,
+           weights='distance')
+	Accuracy: 0.81800	Precision: 0.35173	Recall: 0.32500	F1: 0.33784	F2: 0.33002
+	Total predictions: 14000	True positives:  650	False positives: 1198	False negatives: 1350	True negatives: 10802
+
+executing tester.py time: 0.975 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=3, algorithm='brute', weights ='distance')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8250
+
+KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
+           weights='distance')
+	Accuracy: 0.82100	Precision: 0.20650	Recall: 0.08900	F1: 0.12439	F2: 0.10043
+	Total predictions: 14000	True positives:  178	False positives:  684	False negatives: 1822	True negatives: 11316
+
+executing tester.py time: 1.086 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=4, algorithm='brute', weights ='distance')
+training time: 0.0 s
+predicting time: 0.003 s
+accuracy: 0.8500
+
+KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=4, p=2,
+           weights='distance')
+	Accuracy: 0.82193	Precision: 0.24509	Recall: 0.11850	F1: 0.15976	F2: 0.13215
+	Total predictions: 14000	True positives:  237	False positives:  730	False negatives: 1763	True negatives: 11270
+
+executing tester.py time: 0.979 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=5, algorithm='brute', weights ='distance')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8500
+
+KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')
+	Accuracy: 0.84493	Precision: 0.39080	Recall: 0.15300	F1: 0.21991	F2: 0.17420
+	Total predictions: 14000	True positives:  306	False positives:  477	False negatives: 1694	True negatives: 11523
+
+executing tester.py time: 1.052 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=6, algorithm='brute', weights ='distance')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=6, p=2,
+           weights='distance')
+	Accuracy: 0.84279	Precision: 0.36931	Recall: 0.14200	F1: 0.20513	F2: 0.16193
+	Total predictions: 14000	True positives:  284	False positives:  485	False negatives: 1716	True negatives: 11515
+
+executing tester.py time: 1.387 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=7, algorithm='brute', weights ='distance')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
+           weights='distance')
+	Accuracy: 0.85071	Precision: 0.40426	Recall: 0.09500	F1: 0.15385	F2: 0.11216
+	Total predictions: 14000	True positives:  190	False positives:  280	False negatives: 1810	True negatives: 11720
+
+executing tester.py time: 1.021 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=8, algorithm='brute', weights ='distance')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=8, p=2,
+           weights='distance')
+	Accuracy: 0.83943	Precision: 0.15169	Recall: 0.02700	F1: 0.04584	F2: 0.03231
+	Total predictions: 14000	True positives:   54	False positives:  302	False negatives: 1946	True negatives: 11698
+
+executing tester.py time: 1.391 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=2, algorithm='ball_tree', weights ='distance')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8250
+
+KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=2,
+           weights='distance')
+	Accuracy: 0.81800	Precision: 0.35173	Recall: 0.32500	F1: 0.33784	F2: 0.33002
+	Total predictions: 14000	True positives:  650	False positives: 1198	False negatives: 1350	True negatives: 10802
+
+executing tester.py time: 1.425 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=3, algorithm='ball_tree', weights ='distance')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8250
+
+KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
+           weights='distance')
+	Accuracy: 0.82100	Precision: 0.20650	Recall: 0.08900	F1: 0.12439	F2: 0.10043
+	Total predictions: 14000	True positives:  178	False positives:  684	False negatives: 1822	True negatives: 11316
+
+executing tester.py time: 1.443 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=4, algorithm='ball_tree', weights ='distance')
+training time: 0.001 s
+predicting time: 0.002 s
+accuracy: 0.8500
+
+KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=4, p=2,
+           weights='distance')
+	Accuracy: 0.82193	Precision: 0.24509	Recall: 0.11850	F1: 0.15976	F2: 0.13215
+	Total predictions: 14000	True positives:  237	False positives:  730	False negatives: 1763	True negatives: 11270
+
+executing tester.py time: 1.429 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=5, algorithm='ball_tree', weights ='distance')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8500
+
+KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')
+	Accuracy: 0.84493	Precision: 0.39080	Recall: 0.15300	F1: 0.21991	F2: 0.17420
+	Total predictions: 14000	True positives:  306	False positives:  477	False negatives: 1694	True negatives: 11523
+
+executing tester.py time: 1.105 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=6, algorithm='ball_tree', weights ='distance')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=6, p=2,
+           weights='distance')
+	Accuracy: 0.84279	Precision: 0.36931	Recall: 0.14200	F1: 0.20513	F2: 0.16193
+	Total predictions: 14000	True positives:  284	False positives:  485	False negatives: 1716	True negatives: 11515
+
+executing tester.py time: 1.366 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=7, algorithm='ball_tree', weights ='distance')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
+           weights='distance')
+	Accuracy: 0.85071	Precision: 0.40426	Recall: 0.09500	F1: 0.15385	F2: 0.11216
+	Total predictions: 14000	True positives:  190	False positives:  280	False negatives: 1810	True negatives: 11720
+
+executing tester.py time: 1.121 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=8, algorithm='ball_tree', weights ='distance')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=8, p=2,
+           weights='distance')
+	Accuracy: 0.83943	Precision: 0.15169	Recall: 0.02700	F1: 0.04584	F2: 0.03231
+	Total predictions: 14000	True positives:   54	False positives:  302	False negatives: 1946	True negatives: 11698
+
+executing tester.py time: 1.096 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=2, algorithm='kd_tree', weights ='distance')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8250
+
+KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=2,
+           weights='distance')
+	Accuracy: 0.81800	Precision: 0.35173	Recall: 0.32500	F1: 0.33784	F2: 0.33002
+	Total predictions: 14000	True positives:  650	False positives: 1198	False negatives: 1350	True negatives: 10802
+
+executing tester.py time: 1.089 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=3, algorithm='kd_tree', weights ='distance')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8250
+
+KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
+           weights='distance')
+	Accuracy: 0.82100	Precision: 0.20650	Recall: 0.08900	F1: 0.12439	F2: 0.10043
+	Total predictions: 14000	True positives:  178	False positives:  684	False negatives: 1822	True negatives: 11316
+
+executing tester.py time: 1.076 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=4, algorithm='kd_tree', weights ='distance')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8500
+
+KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=4, p=2,
+           weights='distance')
+	Accuracy: 0.82193	Precision: 0.24509	Recall: 0.11850	F1: 0.15976	F2: 0.13215
+	Total predictions: 14000	True positives:  237	False positives:  730	False negatives: 1763	True negatives: 11270
+
+executing tester.py time: 1.092 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=5, algorithm='kd_tree', weights ='distance')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8500
+
+KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')
+	Accuracy: 0.84493	Precision: 0.39080	Recall: 0.15300	F1: 0.21991	F2: 0.17420
+	Total predictions: 14000	True positives:  306	False positives:  477	False negatives: 1694	True negatives: 11523
+
+executing tester.py time: 1.099 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=6, algorithm='kd_tree', weights ='distance')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=6, p=2,
+           weights='distance')
+	Accuracy: 0.84279	Precision: 0.36931	Recall: 0.14200	F1: 0.20513	F2: 0.16193
+	Total predictions: 14000	True positives:  284	False positives:  485	False negatives: 1716	True negatives: 11515
+
+executing tester.py time: 1.43 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=7, algorithm='kd_tree', weights ='distance')
+training time: 0.001 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
+           weights='distance')
+	Accuracy: 0.85071	Precision: 0.40426	Recall: 0.09500	F1: 0.15385	F2: 0.11216
+	Total predictions: 14000	True positives:  190	False positives:  280	False negatives: 1810	True negatives: 11720
+
+executing tester.py time: 1.148 s
+
+###########################################################################################################################
+
+#KNeighborsClassifier(n_neighbors=8, algorithm='kd_tree', weights ='distance')
+training time: 0.0 s
+predicting time: 0.001 s
+accuracy: 0.8750
+
+KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=8, p=2,
+           weights='distance')
+	Accuracy: 0.83943	Precision: 0.15169	Recall: 0.02700	F1: 0.04584	F2: 0.03231
+	Total predictions: 14000	True positives:   54	False positives:  302	False negatives: 1946	True negatives: 11698
+
+executing tester.py time: 1.235 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=20, algorithm='SAMME.R', learning_rate=0.8)
+training time: 0.032 s
+predicting time: 0.002 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.8, n_estimators=20, random_state=None)
+	Accuracy: 0.79900	Precision: 0.20719	Recall: 0.14400	F1: 0.16991	F2: 0.15335
+	Total predictions: 14000	True positives:  288	False positives: 1102	False negatives: 1712	True negatives: 10898
+
+executing tester.py time: 38.133 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=30, algorithm='SAMME.R', learning_rate=0.8)
+training time: 0.047 s
+predicting time: 0.003 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.8, n_estimators=30, random_state=None)
+	Accuracy: 0.79307	Precision: 0.18833	Recall: 0.13550	F1: 0.15760	F2: 0.14355
+	Total predictions: 14000	True positives:  271	False positives: 1168	False negatives: 1729	True negatives: 10832
+
+executing tester.py time: 52.118 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=40, algorithm='SAMME.R', learning_rate=0.8)
+training time: 0.066 s
+predicting time: 0.004 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.8, n_estimators=40, random_state=None)
+	Accuracy: 0.78936	Precision: 0.17343	Recall: 0.12600	F1: 0.14596	F2: 0.13329
+	Total predictions: 14000	True positives:  252	False positives: 1201	False negatives: 1748	True negatives: 10799
+
+executing tester.py time: 73.572 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=50, algorithm='SAMME.R', learning_rate=0.8)
+training time: 0.124 s
+predicting time: 0.006 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.8, n_estimators=50, random_state=None)
+	Accuracy: 0.78607	Precision: 0.16179	Recall: 0.11900	F1: 0.13714	F2: 0.12565
+	Total predictions: 14000	True positives:  238	False positives: 1233	False negatives: 1762	True negatives: 10767
+
+executing tester.py time: 90.745 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=60, algorithm='SAMME.R', learning_rate=0.8)
+training time: 0.117 s
+predicting time: 0.006 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.8, n_estimators=60, random_state=None)
+	Accuracy: 0.78436	Precision: 0.15079	Recall: 0.11000	F1: 0.12720	F2: 0.11629
+	Total predictions: 14000	True positives:  220	False positives: 1239	False negatives: 1780	True negatives: 10761
+
+executing tester.py time: 105.051 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=70, algorithm='SAMME.R', learning_rate=0.8)
+training time: 0.114 s
+predicting time: 0.007 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.8, n_estimators=70, random_state=None)
+	Accuracy: 0.78114	Precision: 0.14103	Recall: 0.10450	F1: 0.12005	F2: 0.11021
+	Total predictions: 14000	True positives:  209	False positives: 1273	False negatives: 1791	True negatives: 10727
+
+executing tester.py time: 121.333 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=80, algorithm='SAMME.R', learning_rate=0.8)
+training time: 0.119 s
+predicting time: 0.007 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.8, n_estimators=80, random_state=None)
+	Accuracy: 0.78150	Precision: 0.14199	Recall: 0.10500	F1: 0.12072	F2: 0.11077
+	Total predictions: 14000	True positives:  210	False positives: 1269	False negatives: 1790	True negatives: 10731
+
+executing tester.py time: 137.977 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=20, algorithm='SAMME.R', learning_rate=0.85)
+training time: 0.049 s
+predicting time: 0.002 s
+accuracy: 0.8250
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.85, n_estimators=20, random_state=None)
+	Accuracy: 0.79736	Precision: 0.20877	Recall: 0.15000	F1: 0.17457	F2: 0.15895
+	Total predictions: 14000	True positives:  300	False positives: 1137	False negatives: 1700	True negatives: 10863
+
+executing tester.py time: 35.39 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=30, algorithm='SAMME.R', learning_rate=0.85)
+training time: 0.047 s
+predicting time: 0.003 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.85, n_estimators=30, random_state=None)
+	Accuracy: 0.79350	Precision: 0.19960	Recall: 0.14800	F1: 0.16997	F2: 0.15607
+	Total predictions: 14000	True positives:  296	False positives: 1187	False negatives: 1704	True negatives: 10813
+
+executing tester.py time: 51.577 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=40, algorithm='SAMME.R', learning_rate=0.85)
+training time: 0.062 s
+predicting time: 0.004 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.85, n_estimators=40, random_state=None)
+	Accuracy: 0.78936	Precision: 0.18047	Recall: 0.13400	F1: 0.15380	F2: 0.14128
+	Total predictions: 14000	True positives:  268	False positives: 1217	False negatives: 1732	True negatives: 10783
+
+executing tester.py time: 70.948 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=50, algorithm='SAMME.R', learning_rate=0.85)
+training time: 0.077 s
+predicting time: 0.005 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.85, n_estimators=50, random_state=None)
+	Accuracy: 0.78707	Precision: 0.16880	Recall: 0.12500	F1: 0.14364	F2: 0.13184
+	Total predictions: 14000	True positives:  250	False positives: 1231	False negatives: 1750	True negatives: 10769
+
+executing tester.py time: 84.5 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=60, algorithm='SAMME.R', learning_rate=0.85)
+training time: 0.094 s
+predicting time: 0.006 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.85, n_estimators=60, random_state=None)
+	Accuracy: 0.78357	Precision: 0.15436	Recall: 0.11500	F1: 0.13181	F2: 0.12118
+	Total predictions: 14000	True positives:  230	False positives: 1260	False negatives: 1770	True negatives: 10740
+
+executing tester.py time: 108.692 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=70, algorithm='SAMME.R', learning_rate=0.85)
+training time: 0.119 s
+predicting time: 0.007 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.85, n_estimators=70, random_state=None)
+	Accuracy: 0.78043	Precision: 0.13911	Recall: 0.10350	F1: 0.11869	F2: 0.10909
+	Total predictions: 14000	True positives:  207	False positives: 1281	False negatives: 1793	True negatives: 10719
+
+executing tester.py time: 128.984 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=80, algorithm='SAMME.R', learning_rate=0.85)
+training time: 0.138 s
+predicting time: 0.009 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.85, n_estimators=80, random_state=None)
+	Accuracy: 0.78029	Precision: 0.13599	Recall: 0.10050	F1: 0.11558	F2: 0.10604
+	Total predictions: 14000	True positives:  201	False positives: 1277	False negatives: 1799	True negatives: 10723
+
+executing tester.py time: 145.085 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=20, algorithm='SAMME.R', learning_rate=0.9)
+training time: 0.034 s
+predicting time: 0.002 s
+accuracy: 0.7250
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.9, n_estimators=20, random_state=None)
+	Accuracy: 0.79450	Precision: 0.20231	Recall: 0.14900	F1: 0.17161	F2: 0.15729
+	Total predictions: 14000	True positives:  298	False positives: 1175	False negatives: 1702	True negatives: 10825
+
+executing tester.py time: 35.353 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=30, algorithm='SAMME.R', learning_rate=0.9)
+training time: 0.048 s
+predicting time: 0.003 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.9, n_estimators=30, random_state=None)
+	Accuracy: 0.78979	Precision: 0.19001	Recall: 0.14450	F1: 0.16416	F2: 0.15177
+	Total predictions: 14000	True positives:  289	False positives: 1232	False negatives: 1711	True negatives: 10768
+
+executing tester.py time: 58.378 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=40, algorithm='SAMME.R', learning_rate=0.9)
+training time: 0.099 s
+predicting time: 0.005 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.9, n_estimators=40, random_state=None)
+	Accuracy: 0.78714	Precision: 0.18057	Recall: 0.13850	F1: 0.15676	F2: 0.14527
+	Total predictions: 14000	True positives:  277	False positives: 1257	False negatives: 1723	True negatives: 10743
+
+executing tester.py time: 76.024 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=50, algorithm='SAMME.R', learning_rate=0.9)
+training time: 0.095 s
+predicting time: 0.005 s
+accuracy: 0.7500
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.9, n_estimators=50, random_state=None)
+	Accuracy: 0.78350	Precision: 0.16373	Recall: 0.12550	F1: 0.14209	F2: 0.13165
+	Total predictions: 14000	True positives:  251	False positives: 1282	False negatives: 1749	True negatives: 10718
+
+executing tester.py time: 90.677 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=60, algorithm='SAMME.R', learning_rate=0.9)
+training time: 0.093 s
+predicting time: 0.006 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.9, n_estimators=60, random_state=None)
+	Accuracy: 0.78150	Precision: 0.14957	Recall: 0.11300	F1: 0.12874	F2: 0.11881
+	Total predictions: 14000	True positives:  226	False positives: 1285	False negatives: 1774	True negatives: 10715
+
+executing tester.py time: 98.785 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=70, algorithm='SAMME.R', learning_rate=0.9)
+training time: 0.104 s
+predicting time: 0.006 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.9, n_estimators=70, random_state=None)
+	Accuracy: 0.77979	Precision: 0.14020	Recall: 0.10550	F1: 0.12040	F2: 0.11099
+	Total predictions: 14000	True positives:  211	False positives: 1294	False negatives: 1789	True negatives: 10706
+
+executing tester.py time: 118.108 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=80, algorithm='SAMME.R', learning_rate=0.9)
+training time: 0.13 s
+predicting time: 0.008 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.9, n_estimators=80, random_state=None)
+	Accuracy: 0.77943	Precision: 0.13392	Recall: 0.09950	F1: 0.11417	F2: 0.10489
+	Total predictions: 14000	True positives:  199	False positives: 1287	False negatives: 1801	True negatives: 10713
+
+executing tester.py time: 131.968 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=20, algorithm='SAMME.R', learning_rate=0.95)
+training time: 0.031 s
+predicting time: 0.002 s
+accuracy: 0.7250
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.95, n_estimators=20, random_state=None)
+	Accuracy: 0.79293	Precision: 0.20173	Recall: 0.15200	F1: 0.17337	F2: 0.15988
+	Total predictions: 14000	True positives:  304	False positives: 1203	False negatives: 1696	True negatives: 10797
+
+executing tester.py time: 32.454 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=30, algorithm='SAMME.R', learning_rate=0.95)
+training time: 0.047 s
+predicting time: 0.003 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.95, n_estimators=30, random_state=None)
+	Accuracy: 0.78900	Precision: 0.19501	Recall: 0.15250	F1: 0.17116	F2: 0.15945
+	Total predictions: 14000	True positives:  305	False positives: 1259	False negatives: 1695	True negatives: 10741
+
+executing tester.py time: 50.551 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=40, algorithm='SAMME.R', learning_rate=0.95)
+training time: 0.061 s
+predicting time: 0.004 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.95, n_estimators=40, random_state=None)
+	Accuracy: 0.78450	Precision: 0.17673	Recall: 0.13900	F1: 0.15561	F2: 0.14520
+	Total predictions: 14000	True positives:  278	False positives: 1295	False negatives: 1722	True negatives: 10705
+
+executing tester.py time: 63.525 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=50, algorithm='SAMME.R', learning_rate=0.95)
+training time: 0.075 s
+predicting time: 0.005 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.95, n_estimators=50, random_state=None)
+	Accuracy: 0.78264	Precision: 0.16762	Recall: 0.13150	F1: 0.14738	F2: 0.13742
+	Total predictions: 14000	True positives:  263	False positives: 1306	False negatives: 1737	True negatives: 10694
+
+executing tester.py time: 78.272 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=60, algorithm='SAMME.R', learning_rate=0.95)
+training time: 0.089 s
+predicting time: 0.005 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.95, n_estimators=60, random_state=None)
+	Accuracy: 0.78071	Precision: 0.15260	Recall: 0.11750	F1: 0.13277	F2: 0.12317
+	Total predictions: 14000	True positives:  235	False positives: 1305	False negatives: 1765	True negatives: 10695
+
+executing tester.py time: 93.652 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=70, algorithm='SAMME.R', learning_rate=0.95)
+training time: 0.104 s
+predicting time: 0.006 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.95, n_estimators=70, random_state=None)
+	Accuracy: 0.77971	Precision: 0.14621	Recall: 0.11200	F1: 0.12684	F2: 0.11750
+	Total predictions: 14000	True positives:  224	False positives: 1308	False negatives: 1776	True negatives: 10692
+
+executing tester.py time: 111.715 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=80, algorithm='SAMME.R', learning_rate=0.95)
+training time: 0.119 s
+predicting time: 0.007 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.95, n_estimators=80, random_state=None)
+	Accuracy: 0.77950	Precision: 0.13839	Recall: 0.10400	F1: 0.11876	F2: 0.10944
+	Total predictions: 14000	True positives:  208	False positives: 1295	False negatives: 1792	True negatives: 10705
+
+executing tester.py time: 127.06 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=20, algorithm='SAMME.R', learning_rate=1.0)
+training time: 0.031 s
+predicting time: 0.002 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.0, n_estimators=20, random_state=None)
+	Accuracy: 0.79293	Precision: 0.20212	Recall: 0.15250	F1: 0.17384	F2: 0.16037
+	Total predictions: 14000	True positives:  305	False positives: 1204	False negatives: 1695	True negatives: 10796
+
+executing tester.py time: 32.909 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=30, algorithm='SAMME.R', learning_rate=1.0)
+training time: 0.047 s
+predicting time: 0.003 s
+accuracy: 0.7500
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.0, n_estimators=30, random_state=None)
+	Accuracy: 0.78743	Precision: 0.19114	Recall: 0.15100	F1: 0.16872	F2: 0.15762
+	Total predictions: 14000	True positives:  302	False positives: 1278	False negatives: 1698	True negatives: 10722
+
+executing tester.py time: 48.167 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=40, algorithm='SAMME.R', learning_rate=1.0)
+training time: 0.061 s
+predicting time: 0.004 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.0, n_estimators=40, random_state=None)
+	Accuracy: 0.78671	Precision: 0.18837	Recall: 0.14900	F1: 0.16639	F2: 0.15550
+	Total predictions: 14000	True positives:  298	False positives: 1284	False negatives: 1702	True negatives: 10716
+
+executing tester.py time: 64.302 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=50, algorithm='SAMME.R', learning_rate=1.0)
+training time: 0.076 s
+predicting time: 0.005 s
+accuracy: 0.7500
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.0, n_estimators=50, random_state=None)
+	Accuracy: 0.78429	Precision: 0.17308	Recall: 0.13500	F1: 0.15169	F2: 0.14121
+	Total predictions: 14000	True positives:  270	False positives: 1290	False negatives: 1730	True negatives: 10710
+
+executing tester.py time: 81.646 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=60, algorithm='SAMME.R', learning_rate=1.0)
+training time: 0.091 s
+predicting time: 0.006 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.0, n_estimators=60, random_state=None)
+	Accuracy: 0.78250	Precision: 0.16399	Recall: 0.12750	F1: 0.14346	F2: 0.13344
+	Total predictions: 14000	True positives:  255	False positives: 1300	False negatives: 1745	True negatives: 10700
+
+executing tester.py time: 94.905 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=70, algorithm='SAMME.R', learning_rate=1.0)
+training time: 0.105 s
+predicting time: 0.006 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.0, n_estimators=70, random_state=None)
+	Accuracy: 0.78143	Precision: 0.15982	Recall: 0.12450	F1: 0.13997	F2: 0.13026
+	Total predictions: 14000	True positives:  249	False positives: 1309	False negatives: 1751	True negatives: 10691
+
+executing tester.py time: 109.788 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=80, algorithm='SAMME.R', learning_rate=1.0)
+training time: 0.118 s
+predicting time: 0.007 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.0, n_estimators=80, random_state=None)
+	Accuracy: 0.78071	Precision: 0.15661	Recall: 0.12200	F1: 0.13716	F2: 0.12764
+	Total predictions: 14000	True positives:  244	False positives: 1314	False negatives: 1756	True negatives: 10686
+
+executing tester.py time: 126.159 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=20, algorithm='SAMME', learning_rate=0.8)
+training time: 0.03 s
+predicting time: 0.001 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.8,
+          n_estimators=20, random_state=None)
+	Accuracy: 0.83871	Precision: 0.37524	Recall: 0.19400	F1: 0.25577	F2: 0.21474
+	Total predictions: 14000	True positives:  388	False positives:  646	False negatives: 1612	True negatives: 11354
+
+executing tester.py time: 30.131 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=30, algorithm='SAMME', learning_rate=0.8)
+training time: 0.045 s
+predicting time: 0.002 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.8,
+          n_estimators=30, random_state=None)
+	Accuracy: 0.82693	Precision: 0.31398	Recall: 0.17850	F1: 0.22761	F2: 0.19536
+	Total predictions: 14000	True positives:  357	False positives:  780	False negatives: 1643	True negatives: 11220
+
+executing tester.py time: 44.615 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=40, algorithm='SAMME', learning_rate=0.8)
+training time: 0.058 s
+predicting time: 0.002 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.8,
+          n_estimators=40, random_state=None)
+	Accuracy: 0.82107	Precision: 0.28620	Recall: 0.16900	F1: 0.21251	F2: 0.18408
+	Total predictions: 14000	True positives:  338	False positives:  843	False negatives: 1662	True negatives: 11157
+
+executing tester.py time: 59.567 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=50, algorithm='SAMME', learning_rate=0.8)
+training time: 0.08 s
+predicting time: 0.003 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.8,
+          n_estimators=50, random_state=None)
+	Accuracy: 0.81664	Precision: 0.26628	Recall: 0.16150	F1: 0.20106	F2: 0.17530
+	Total predictions: 14000	True positives:  323	False positives:  890	False negatives: 1677	True negatives: 11110
+
+executing tester.py time: 73.844 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=60, algorithm='SAMME', learning_rate=0.8)
+training time: 0.085 s
+predicting time: 0.003 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.8,
+          n_estimators=60, random_state=None)
+	Accuracy: 0.81300	Precision: 0.24919	Recall: 0.15350	F1: 0.18998	F2: 0.16627
+	Total predictions: 14000	True positives:  307	False positives:  925	False negatives: 1693	True negatives: 11075
+
+executing tester.py time: 88.315 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=70, algorithm='SAMME', learning_rate=0.8)
+training time: 0.099 s
+predicting time: 0.004 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.8,
+          n_estimators=70, random_state=None)
+	Accuracy: 0.80957	Precision: 0.23780	Recall: 0.15100	F1: 0.18471	F2: 0.16289
+	Total predictions: 14000	True positives:  302	False positives:  968	False negatives: 1698	True negatives: 11032
+
+executing tester.py time: 102.432 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=80, algorithm='SAMME', learning_rate=0.8)
+training time: 0.114 s
+predicting time: 0.004 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.8,
+          n_estimators=80, random_state=None)
+	Accuracy: 0.80807	Precision: 0.23310	Recall: 0.15000	F1: 0.18254	F2: 0.16152
+	Total predictions: 14000	True positives:  300	False positives:  987	False negatives: 1700	True negatives: 11013
+
+executing tester.py time: 117.928 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=20, algorithm='SAMME', learning_rate=0.85)
+training time: 0.029 s
+predicting time: 0.001 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.85,
+          n_estimators=20, random_state=None)
+	Accuracy: 0.83300	Precision: 0.34747	Recall: 0.19250	F1: 0.24775	F2: 0.21135
+	Total predictions: 14000	True positives:  385	False positives:  723	False negatives: 1615	True negatives: 11277
+
+executing tester.py time: 30.007 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=30, algorithm='SAMME', learning_rate=0.85)
+training time: 0.043 s
+predicting time: 0.002 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.85,
+          n_estimators=30, random_state=None)
+	Accuracy: 0.82350	Precision: 0.30093	Recall: 0.17800	F1: 0.22369	F2: 0.19384
+	Total predictions: 14000	True positives:  356	False positives:  827	False negatives: 1644	True negatives: 11173
+
+executing tester.py time: 44.704 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=40, algorithm='SAMME', learning_rate=0.85)
+training time: 0.058 s
+predicting time: 0.002 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.85,
+          n_estimators=40, random_state=None)
+	Accuracy: 0.81843	Precision: 0.27341	Recall: 0.16350	F1: 0.20463	F2: 0.17779
+	Total predictions: 14000	True positives:  327	False positives:  869	False negatives: 1673	True negatives: 11131
+
+executing tester.py time: 62.988 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=50, algorithm='SAMME', learning_rate=0.85)
+training time: 0.073 s
+predicting time: 0.003 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.85,
+          n_estimators=50, random_state=None)
+	Accuracy: 0.81350	Precision: 0.25619	Recall: 0.16050	F1: 0.19736	F2: 0.17346
+	Total predictions: 14000	True positives:  321	False positives:  932	False negatives: 1679	True negatives: 11068
+
+executing tester.py time: 73.976 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=60, algorithm='SAMME', learning_rate=0.85)
+training time: 0.086 s
+predicting time: 0.003 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.85,
+          n_estimators=60, random_state=None)
+	Accuracy: 0.81029	Precision: 0.24132	Recall: 0.15300	F1: 0.18727	F2: 0.16508
+	Total predictions: 14000	True positives:  306	False positives:  962	False negatives: 1694	True negatives: 11038
+
+executing tester.py time: 88.86 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=70, algorithm='SAMME', learning_rate=0.85)
+training time: 0.099 s
+predicting time: 0.004 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.85,
+          n_estimators=70, random_state=None)
+	Accuracy: 0.80679	Precision: 0.23071	Recall: 0.15100	F1: 0.18253	F2: 0.16221
+	Total predictions: 14000	True positives:  302	False positives: 1007	False negatives: 1698	True negatives: 10993
+
+executing tester.py time: 102.244 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=80, algorithm='SAMME', learning_rate=0.85)
+training time: 0.115 s
+predicting time: 0.005 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.85,
+          n_estimators=80, random_state=None)
+	Accuracy: 0.80650	Precision: 0.22960	Recall: 0.15050	F1: 0.18182	F2: 0.16164
+	Total predictions: 14000	True positives:  301	False positives: 1010	False negatives: 1699	True negatives: 10990
+
+executing tester.py time: 115.881 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=20, algorithm='SAMME', learning_rate=0.9)
+training time: 0.03 s
+predicting time: 0.001 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.9,
+          n_estimators=20, random_state=None)
+	Accuracy: 0.82864	Precision: 0.33249	Recall: 0.19800	F1: 0.24820	F2: 0.21543
+	Total predictions: 14000	True positives:  396	False positives:  795	False negatives: 1604	True negatives: 11205
+
+executing tester.py time: 30.224 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=30, algorithm='SAMME', learning_rate=0.9)
+training time: 0.043 s
+predicting time: 0.002 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.9,
+          n_estimators=30, random_state=None)
+	Accuracy: 0.82207	Precision: 0.29861	Recall: 0.18200	F1: 0.22616	F2: 0.19742
+	Total predictions: 14000	True positives:  364	False positives:  855	False negatives: 1636	True negatives: 11145
+
+executing tester.py time: 44.644 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=40, algorithm='SAMME', learning_rate=0.9)
+training time: 0.059 s
+predicting time: 0.002 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.9,
+          n_estimators=40, random_state=None)
+	Accuracy: 0.81686	Precision: 0.27110	Recall: 0.16700	F1: 0.20668	F2: 0.18089
+	Total predictions: 14000	True positives:  334	False positives:  898	False negatives: 1666	True negatives: 11102
+
+executing tester.py time: 59.787 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=50, algorithm='SAMME', learning_rate=0.9)
+training time: 0.071 s
+predicting time: 0.003 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.9,
+          n_estimators=50, random_state=None)
+	Accuracy: 0.81257	Precision: 0.25238	Recall: 0.15900	F1: 0.19509	F2: 0.17171
+	Total predictions: 14000	True positives:  318	False positives:  942	False negatives: 1682	True negatives: 11058
+
+executing tester.py time: 73.835 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=60, algorithm='SAMME', learning_rate=0.9)
+training time: 0.085 s
+predicting time: 0.003 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.9,
+          n_estimators=60, random_state=None)
+	Accuracy: 0.80921	Precision: 0.23891	Recall: 0.15350	F1: 0.18691	F2: 0.16532
+	Total predictions: 14000	True positives:  307	False positives:  978	False negatives: 1693	True negatives: 11022
+
+executing tester.py time: 88.202 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=70, algorithm='SAMME', learning_rate=0.9)
+training time: 0.099 s
+predicting time: 0.004 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.9,
+          n_estimators=70, random_state=None)
+	Accuracy: 0.80714	Precision: 0.23525	Recall: 0.15550	F1: 0.18724	F2: 0.16681
+	Total predictions: 14000	True positives:  311	False positives: 1011	False negatives: 1689	True negatives: 10989
+
+executing tester.py time: 103.343 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=80, algorithm='SAMME', learning_rate=0.9)
+training time: 0.133 s
+predicting time: 0.004 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.9,
+          n_estimators=80, random_state=None)
+	Accuracy: 0.80586	Precision: 0.22926	Recall: 0.15200	F1: 0.18280	F2: 0.16299
+	Total predictions: 14000	True positives:  304	False positives: 1022	False negatives: 1696	True negatives: 10978
+
+executing tester.py time: 118.456 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=20, algorithm='SAMME', learning_rate=0.95)
+training time: 0.03 s
+predicting time: 0.001 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.95,
+          n_estimators=20, random_state=None)
+	Accuracy: 0.82643	Precision: 0.32290	Recall: 0.19600	F1: 0.24393	F2: 0.21272
+	Total predictions: 14000	True positives:  392	False positives:  822	False negatives: 1608	True negatives: 11178
+
+executing tester.py time: 30.13 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=30, algorithm='SAMME', learning_rate=0.95)
+training time: 0.044 s
+predicting time: 0.002 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.95,
+          n_estimators=30, random_state=None)
+	Accuracy: 0.81964	Precision: 0.29084	Recall: 0.18250	F1: 0.22427	F2: 0.19719
+	Total predictions: 14000	True positives:  365	False positives:  890	False negatives: 1635	True negatives: 11110
+
+executing tester.py time: 44.991 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=40, algorithm='SAMME', learning_rate=0.95)
+training time: 0.06 s
+predicting time: 0.002 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.95,
+          n_estimators=40, random_state=None)
+	Accuracy: 0.81379	Precision: 0.26491	Recall: 0.17100	F1: 0.20784	F2: 0.18405
+	Total predictions: 14000	True positives:  342	False positives:  949	False negatives: 1658	True negatives: 11051
+
+executing tester.py time: 61.477 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=50, algorithm='SAMME', learning_rate=0.95)
+training time: 0.073 s
+predicting time: 0.003 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.95,
+          n_estimators=50, random_state=None)
+	Accuracy: 0.81079	Precision: 0.25019	Recall: 0.16250	F1: 0.19703	F2: 0.17475
+	Total predictions: 14000	True positives:  325	False positives:  974	False negatives: 1675	True negatives: 11026
+
+executing tester.py time: 74.865 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=60, algorithm='SAMME', learning_rate=0.95)
+training time: 0.088 s
+predicting time: 0.003 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.95,
+          n_estimators=60, random_state=None)
+	Accuracy: 0.80886	Precision: 0.24040	Recall: 0.15650	F1: 0.18958	F2: 0.16824
+	Total predictions: 14000	True positives:  313	False positives:  989	False negatives: 1687	True negatives: 11011
+
+executing tester.py time: 90.029 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=70, algorithm='SAMME', learning_rate=0.95)
+training time: 0.103 s
+predicting time: 0.004 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.95,
+          n_estimators=70, random_state=None)
+	Accuracy: 0.80593	Precision: 0.23385	Recall: 0.15750	F1: 0.18823	F2: 0.16850
+	Total predictions: 14000	True positives:  315	False positives: 1032	False negatives: 1685	True negatives: 10968
+
+executing tester.py time: 102.561 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=80, algorithm='SAMME', learning_rate=0.95)
+training time: 0.115 s
+predicting time: 0.004 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.95,
+          n_estimators=80, random_state=None)
+	Accuracy: 0.80393	Precision: 0.22711	Recall: 0.15500	F1: 0.18425	F2: 0.16551
+	Total predictions: 14000	True positives:  310	False positives: 1055	False negatives: 1690	True negatives: 10945
+
+executing tester.py time: 117.791 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=20, algorithm='SAMME', learning_rate=1.0)
+training time: 0.03 s
+predicting time: 0.001 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1.0,
+          n_estimators=20, random_state=None)
+	Accuracy: 0.82471	Precision: 0.31898	Recall: 0.20000	F1: 0.24585	F2: 0.21612
+	Total predictions: 14000	True positives:  400	False positives:  854	False negatives: 1600	True negatives: 11146
+
+executing tester.py time: 30.221 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=30, algorithm='SAMME', learning_rate=1.0)
+training time: 0.044 s
+predicting time: 0.002 s
+accuracy: 0.8000
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1.0,
+          n_estimators=30, random_state=None)
+	Accuracy: 0.81707	Precision: 0.27470	Recall: 0.17100	F1: 0.21079	F2: 0.18496
+	Total predictions: 14000	True positives:  342	False positives:  903	False negatives: 1658	True negatives: 11097
+
+executing tester.py time: 44.605 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=40, algorithm='SAMME', learning_rate=1.0)
+training time: 0.057 s
+predicting time: 0.002 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1.0,
+          n_estimators=40, random_state=None)
+	Accuracy: 0.81157	Precision: 0.25424	Recall: 0.16500	F1: 0.20012	F2: 0.17746
+	Total predictions: 14000	True positives:  330	False positives:  968	False negatives: 1670	True negatives: 11032
+
+executing tester.py time: 58.79 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=50, algorithm='SAMME', learning_rate=1.0)
+training time: 0.073 s
+predicting time: 0.003 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1.0,
+          n_estimators=50, random_state=None)
+	Accuracy: 0.80921	Precision: 0.24291	Recall: 0.15850	F1: 0.19183	F2: 0.17034
+	Total predictions: 14000	True positives:  317	False positives:  988	False negatives: 1683	True negatives: 11012
+
+executing tester.py time: 73.071 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=60, algorithm='SAMME', learning_rate=1.0)
+training time: 0.085 s
+predicting time: 0.003 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1.0,
+          n_estimators=60, random_state=None)
+	Accuracy: 0.80736	Precision: 0.23698	Recall: 0.15700	F1: 0.18887	F2: 0.16836
+	Total predictions: 14000	True positives:  314	False positives: 1011	False negatives: 1686	True negatives: 10989
+
+executing tester.py time: 87.846 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=70, algorithm='SAMME', learning_rate=1.0)
+training time: 0.098 s
+predicting time: 0.004 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1.0,
+          n_estimators=70, random_state=None)
+	Accuracy: 0.80471	Precision: 0.23173	Recall: 0.15850	F1: 0.18824	F2: 0.16919
+	Total predictions: 14000	True positives:  317	False positives: 1051	False negatives: 1683	True negatives: 10949
+
+executing tester.py time: 102.403 s
+
+###########################################################################################################################
+
+#AdaBoostClassifier(n_estimators=80, algorithm='SAMME', learning_rate=1.0)
+training time: 0.113 s
+predicting time: 0.004 s
+accuracy: 0.7750
+
+AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1.0,
+          n_estimators=80, random_state=None)
+	Accuracy: 0.80229	Precision: 0.22532	Recall: 0.15750	F1: 0.18540	F2: 0.16759
+	Total predictions: 14000	True positives:  315	False positives: 1083	False negatives: 1685	True negatives: 10917
+
+executing tester.py time: 117.067 s
+
+###########################################################################################################################
+
+#SVC(kernel='linear', C=1.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8750
+
+SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+	Accuracy: 0.85700	Precision: 0.25000	Recall: 0.00050	F1: 0.00100	F2: 0.00062
+	Total predictions: 14000	True positives:    1	False positives:    3	False negatives: 1999	True negatives: 11997
+
+executing tester.py time: 0.837 s
+
+###########################################################################################################################
+
+#SVC(kernel='rbf', C=1.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8750
+
+Got a divide by zero when trying out: SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Precision or recall may be undefined due to a lack of true positive predicitons.
+executing tester.py time: 1.287 s
+
+###########################################################################################################################
+
+#SVC(kernel='poly', C=1.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8750
+
+Got a divide by zero when trying out: SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Precision or recall may be undefined due to a lack of true positive predicitons.
+executing tester.py time: 0.867 s
+
+###########################################################################################################################
+
+#SVC(kernel='sigmoid', C=1.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8750
+
+Got a divide by zero when trying out: SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Precision or recall may be undefined due to a lack of true positive predicitons.
+executing tester.py time: 0.826 s
+
+###########################################################################################################################
+
+#SVC(kernel='linear', C=10.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.9000
+
+SVC(C=10.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+	Accuracy: 0.85286	Precision: 0.38372	Recall: 0.04950	F1: 0.08769	F2: 0.05994
+	Total predictions: 14000	True positives:   99	False positives:  159	False negatives: 1901	True negatives: 11841
+
+executing tester.py time: 0.947 s
+
+###########################################################################################################################
+
+#SVC(kernel='rbf', C=10.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.9000
+
+SVC(C=10.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+	Accuracy: 0.85757	Precision: 0.54286	Recall: 0.01900	F1: 0.03671	F2: 0.02354
+	Total predictions: 14000	True positives:   38	False positives:   32	False negatives: 1962	True negatives: 11968
+
+executing tester.py time: 1.427 s
+
+###########################################################################################################################
+
+#SVC(kernel='poly', C=10.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8750
+
+Got a divide by zero when trying out: SVC(C=10.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Precision or recall may be undefined due to a lack of true positive predicitons.
+executing tester.py time: 0.877 s
+
+###########################################################################################################################
+
+#SVC(kernel='sigmoid', C=10.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8750
+
+Got a divide by zero when trying out: SVC(C=10.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Precision or recall may be undefined due to a lack of true positive predicitons.
+executing tester.py time: 0.833 s
+
+###########################################################################################################################
+
+#SVC(kernel='linear', C=100.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8500
+
+SVC(C=100.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+	Accuracy: 0.84714	Precision: 0.28788	Recall: 0.04750	F1: 0.08155	F2: 0.05702
+	Total predictions: 14000	True positives:   95	False positives:  235	False negatives: 1905	True negatives: 11765
+
+executing tester.py time: 1.421 s
+
+###########################################################################################################################
+
+#SVC(kernel='rbf', C=100.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8500
+
+SVC(C=100.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+	Accuracy: 0.84229	Precision: 0.25472	Recall: 0.05400	F1: 0.08911	F2: 0.06410
+	Total predictions: 14000	True positives:  108	False positives:  316	False negatives: 1892	True negatives: 11684
+
+executing tester.py time: 1.614 s
+
+###########################################################################################################################
+
+#SVC(kernel='poly', C=100.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8750
+
+SVC(C=100.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+	Accuracy: 0.86436	Precision: 1.00000	Recall: 0.05050	F1: 0.09614	F2: 0.06234
+	Total predictions: 14000	True positives:  101	False positives:    0	False negatives: 1899	True negatives: 12000
+
+executing tester.py time: 0.875 s
+
+###########################################################################################################################
+
+#SVC(kernel='sigmoid', C=100.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8750
+
+Got a divide by zero when trying out: SVC(C=100.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Precision or recall may be undefined due to a lack of true positive predicitons.
+executing tester.py time: 0.811 s
+
+###########################################################################################################################
+
+#SVC(kernel='linear', C=1000.0)
+training time: 0.005 s
+predicting time: 0.0 s
+accuracy: 0.8500
+
+SVC(C=1000.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+	Accuracy: 0.84693	Precision: 0.28267	Recall: 0.04650	F1: 0.07986	F2: 0.05583
+	Total predictions: 14000	True positives:   93	False positives:  236	False negatives: 1907	True negatives: 11764
+
+executing tester.py time: 5.258 s
+
+###########################################################################################################################
+
+#SVC(kernel='rbf', C=1000.0)
+training time: 0.002 s
+predicting time: 0.0 s
+accuracy: 0.8250
+
+SVC(C=1000.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+	Accuracy: 0.83086	Precision: 0.22537	Recall: 0.07550	F1: 0.11311	F2: 0.08708
+	Total predictions: 14000	True positives:  151	False positives:  519	False negatives: 1849	True negatives: 11481
+
+executing tester.py time: 3.209 s
+
+###########################################################################################################################
+
+#SVC(kernel='poly', C=1000.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.9000
+
+SVC(C=1000.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+	Accuracy: 0.85736	Precision: 0.50691	Recall: 0.05500	F1: 0.09923	F2: 0.06693
+	Total predictions: 14000	True positives:  110	False positives:  107	False negatives: 1890	True negatives: 11893
+
+executing tester.py time: 0.997 s
+
+###########################################################################################################################
+
+#SVC(kernel='sigmoid', C=1000.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8750
+
+Got a divide by zero when trying out: SVC(C=1000.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Precision or recall may be undefined due to a lack of true positive predicitons.
+executing tester.py time: 0.816 s
+
+###########################################################################################################################
+
+#SVC(kernel='linear', C=10000.0)
+training time: 0.054 s
+predicting time: 0.0 s
+accuracy: 0.8500
+
+SVC(C=10000.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+	Accuracy: 0.84671	Precision: 0.27607	Recall: 0.04500	F1: 0.07739	F2: 0.05405
+	Total predictions: 14000	True positives:   90	False positives:  236	False negatives: 1910	True negatives: 11764
+
+executing tester.py time: 63.197 s
+
+###########################################################################################################################
+
+#SVC(kernel='rbf', C=10000.0)
+training time: 0.003 s
+predicting time: 0.0 s
+accuracy: 0.8500
+
+SVC(C=10000.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+	Accuracy: 0.83121	Precision: 0.32893	Recall: 0.17450	F1: 0.22803	F2: 0.19258
+	Total predictions: 14000	True positives:  349	False positives:  712	False negatives: 1651	True negatives: 11288
+
+executing tester.py time: 10.633 s
+
+###########################################################################################################################
+
+#SVC(kernel='poly', C=10000.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8500
+
+SVC(C=10000.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+	Accuracy: 0.84100	Precision: 0.30651	Recall: 0.08950	F1: 0.13854	F2: 0.10426
+	Total predictions: 14000	True positives:  179	False positives:  405	False negatives: 1821	True negatives: 11595
+
+executing tester.py time: 1.09 s
+
+###########################################################################################################################
+
+#SVC(kernel='sigmoid', C=10000.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8750
+
+Got a divide by zero when trying out: SVC(C=10000.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Precision or recall may be undefined due to a lack of true positive predicitons.
+executing tester.py time: 0.801 s
+
+###########################################################################################################################
+
+#SVC(kernel='linear', C=100000.0)
+training time: 3.064 s
+predicting time: 0.0 s
+accuracy: 0.8500
+
+SVC(C=100000.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+	Accuracy: 0.84614	Precision: 0.25938	Recall: 0.04150	F1: 0.07155	F2: 0.04988
+	Total predictions: 14000	True positives:   83	False positives:  237	False negatives: 1917	True negatives: 11763
+
+executing tester.py time: 1485.534 s
+
+###########################################################################################################################
+
+#SVC(kernel='rbf', C=100000.0)
+training time: 0.013 s
+predicting time: 0.0 s
+accuracy: 0.8250
+
+SVC(C=100000.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+	Accuracy: 0.82800	Precision: 0.38356	Recall: 0.33600	F1: 0.35821	F2: 0.34454
+	Total predictions: 14000	True positives:  672	False positives: 1080	False negatives: 1328	True negatives: 10920
+
+executing tester.py time: 35.523 s
+
+###########################################################################################################################
+
+#SVC(kernel='poly', C=100000.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8750
+
+SVC(C=100000.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+	Accuracy: 0.85814	Precision: 0.51074	Recall: 0.16650	F1: 0.25113	F2: 0.19244
+	Total predictions: 14000	True positives:  333	False positives:  319	False negatives: 1667	True negatives: 11681
+
+executing tester.py time: 1.63 s
+
+###########################################################################################################################
+
+#SVC(kernel='sigmoid', C=100000.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8750
+
+Got a divide by zero when trying out: SVC(C=100000.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Precision or recall may be undefined due to a lack of true positive predicitons.
+executing tester.py time: 0.825 s
+
+###########################################################################################################################
+
+#SVC(kernel='linear', C=1000000.0)
+training time: 8.426 s
+predicting time: 0.0 s
+accuracy: 0.8500
+
+SVC(C=1000000.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+	Accuracy: 0.84586	Precision: 0.23129	Recall: 0.03400	F1: 0.05929	F2: 0.04099
+	Total predictions: 14000	True positives:   68	False positives:  226	False negatives: 1932	True negatives: 11774
+
+executing tester.py time: 8373.564 s
+
+###########################################################################################################################
+
+#SVC(kernel='rbf', C=1000000.0)
+training time: 0.046 s
+predicting time: 0.0 s
+accuracy: 0.7250
+
+SVC(C=1000000.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+	Accuracy: 0.83293	Precision: 0.41823	Recall: 0.43350	F1: 0.42573	F2: 0.43036
+	Total predictions: 14000	True positives:  867	False positives: 1206	False negatives: 1133	True negatives: 10794
+
+executing tester.py time: 155.918 s
+
+###########################################################################################################################
+
+#SVC(kernel='poly', C=1000000.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8250
+
+SVC(C=1000000.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+	Accuracy: 0.84279	Precision: 0.44942	Recall: 0.44650	F1: 0.44796	F2: 0.44708
+	Total predictions: 14000	True positives:  893	False positives: 1094	False negatives: 1107	True negatives: 10906
+
+executing tester.py time: 2.218 s
+
+###########################################################################################################################
+
+#SVC(kernel='sigmoid', C=1000000.0)
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.8750
+
+Got a divide by zero when trying out: SVC(C=1000000.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Precision or recall may be undefined due to a lack of true positive predicitons.
+executing tester.py time: 0.814 s
+
+###########################################################################################################################
+
