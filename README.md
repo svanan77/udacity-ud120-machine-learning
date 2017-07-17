@@ -18,6 +18,9 @@ user@computer:~/dest_folder$ git clone https://github.com/udacity/ud120-projects
 user@computer:~/dest_folder/datasets_questions$ python explore_enron_data.py
 
 Final Project:
+
 Code:https://github.com/svanan77/udacity-ud120-machine-learning/tree/master/ud120-projects/final_project
+
 user@machineVM:~$  python poi_id.py
+
 Report: https://github.com/svanan77/udacity-ud120-machine-learning/blob/master/FinalProject_Report.pdf
